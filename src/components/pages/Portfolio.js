@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../Project';
 
-export default function Blog() {
+export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio Page</h1>
