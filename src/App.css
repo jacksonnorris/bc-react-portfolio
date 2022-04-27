@@ -4,7 +4,25 @@
   min-height: 100vh;
 }
 
+#root div {}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100%;
+  border-bottom: 1px solid #dee2e6;
+}
+
+header span {
+  align-content: center;
+}
+
 footer {
   bottom: 0;
   position: absolute;
+}
+
+.nav {
+  border-bottom: none !important;
 }
