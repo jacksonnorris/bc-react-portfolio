@@ -1,5 +1,5 @@
 
-const footer = () => {
+const Footer = () => {
   return (
     <container>
       <row>
@@ -11,4 +11,4 @@ const footer = () => {
   )
 }
 
-export default footer;
+export default Footer;
