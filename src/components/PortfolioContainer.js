@@ -12,6 +12,7 @@ export default function PortfolioContainer() {
 
   // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
+    console.log('current', currentPage)
     if (currentPage === 'Home') {
       return <Home />;
     }
@@ -29,7 +30,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       {/* // TODO: Add a comment describing what we are passing as props */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <NavTabs pages={pages} currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
     </div>

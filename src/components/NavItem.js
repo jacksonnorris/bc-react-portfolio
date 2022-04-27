@@ -3,10 +3,10 @@ const NavItem = ({ currentPage, handlePageChange, page }) => {
     <li className="nav-item">
       <a
         href={`#${page.toLowerCase()}`}
-        onClick={() => handlePageChange('Home')}
-        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+        onClick={() => handlePageChange(page)}
+        className={currentPage === 'page' ? 'nav-link active' : 'nav-link'}
       >
-        Home
+        {page}
       </a>
     </li>
   )
