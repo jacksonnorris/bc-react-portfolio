@@ -19,17 +19,39 @@ header {
   border-bottom: 1px solid #dee2e6;
 }
 
-header span {
+header h3 {
   align-content: center;
 }
 
 footer {
+  display: flex;
+  flex-wrap: wrap;
   bottom: 0;
   position: absolute;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footerWrapper span {
+  padding: 20px;
 }
 
 .nav {
   border-bottom: none !important;
+  padding: 20px;
+}
+
+.nav-name {
+  margin-right: auto;
+  margin-left: 20px;
+
 }
 
 h1 {
@@ -92,4 +114,19 @@ h1 {
 
 .fullWidth {
   min-width: 80%;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+span>a>svg {
+  max-width: 50px;
+  max-height: 50px;
+  align-items: center;
+  color: white;
 }

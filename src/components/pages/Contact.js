@@ -7,17 +7,17 @@ export default function Contact() {
       <form>
         <div class="form-group">
           <label for="name">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Name" />
+          <input type="text" className="form-control" id="name" placeholder="Name" />
         </div>
         <div class="form-group">
           <label for="email">Email address</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
+          <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
         </div>
         <div class="form-group">
           <label for="message">Message</label>
-          <input type="text" class="form-control" id="message" placeholder="Enter message" />
+          <textarea className="form-control" id="message" placeholder="Enter message" rows="6" />
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" className="btn btn-primary">Submit</button>
       </form>
     </div>
 

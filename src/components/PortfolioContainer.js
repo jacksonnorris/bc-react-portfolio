@@ -30,10 +30,10 @@ export default function PortfolioContainer() {
   return (
     <div>
       <header>
-        <span className='nav nav-tabs'>Jack</span>
+        <h3 className='nav nav-name'>Jack</h3>
         <NavTabs pages={pages} currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
-      <div class="bodyContent">
+      <div className="bodyContent">
         {renderPage()}
       </div>
       <footer><Footer /></footer>
