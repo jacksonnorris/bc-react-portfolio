@@ -31,3 +31,65 @@ footer {
 .nav {
   border-bottom: none !important;
 }
+
+h1 {
+  margin: 20px 0 !important;
+}
+
+.content {
+  border: 0.4em solid rgba(23, 190, 187, 1);
+  margin: 1em;
+  padding: 2em;
+  width: 35em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 350ms ease;
+  overflow: hidden;
+  position: relative;
+  height: 15em;
+}
+
+.content:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.contentImg {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  transition: all 350ms ease;
+}
+
+.contentImg img {
+  max-width: -webkit-fill-available;
+}
+
+.contentImg:hover {
+  opacity: 1;
+}
+
+.contentInfo {
+  position: relative;
+  width: 30%;
+  background-color: rgba(23, 190, 187, 1);
+  margin-left: -2em;
+  margin-top: -2em;
+  padding: 0.5em;
+  width: fit-content;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fullWidth {
+  min-width: 80%;
+}

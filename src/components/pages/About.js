@@ -3,14 +3,9 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Hi, my name is Jackson Norris. I am a front-end web developer with undergraduate Computer Science at UNC Chapel Hill and am working towards a Certificate in Full-stack development. Skilled with JavaScript, HTML, and CSS and have experience in Java, C, Python, and SQL. I am passionate about solving challenging problems and approaching new material to further develop my abilities. I’ve successfully developed and maintained eCommerce websites run on Netsuite, WordPress, and Shopify, and also have past experience in marketing and working with graphic designers. I enjoy building powerful, yet simple tools that look to accomplish as much as possible while using few resources. I do enjoy working with companies involved in eCommerce and working on content that users get to see and interact with.
       </p>
     </div>
   );
