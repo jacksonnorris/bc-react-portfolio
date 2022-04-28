@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 const Footer = () => {
   return (
     <div className='footerWrapper'>
