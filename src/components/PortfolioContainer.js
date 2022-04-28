@@ -33,7 +33,7 @@ export default function PortfolioContainer() {
         <h3 className='nav nav-name'>Jack</h3>
         <NavTabs pages={pages} currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
-      <div className="bodyContent">
+      <div className="bodyContent min-100-vh">
         {renderPage()}
       </div>
       <footer><Footer /></footer>

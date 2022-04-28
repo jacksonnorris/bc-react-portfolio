@@ -29,6 +29,25 @@ header h3 {
   align-content: center;
 }
 
+.nav-link,
+footer a {
+  color: #c9d1d9 !important;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+footer a:hover {
+  color: white;
+}
+
+footer svg {
+  filter: invert(91%) sepia(11%) saturate(172%) hue-rotate(169deg) brightness(92%) contrast(88%);
+}
+
+footer svg:hover {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(39deg) brightness(101%) contrast(102%);
+}
+
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -77,6 +96,12 @@ h1 {
   overflow: hidden;
   position: relative;
   height: 15em;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    width: 37%;
+  }
 }
 
 .content:hover {
