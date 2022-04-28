@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/bc-react-portfolio/static/css/main.a2ee4908.css",
-    "main.js": "/bc-react-portfolio/static/js/main.67f2501c.js",
+    "main.css": "/bc-react-portfolio/static/css/main.e222a4a6.css",
+    "main.js": "/bc-react-portfolio/static/js/main.107340ad.js",
+    "static/media/3rdStreetInn.png": "/bc-react-portfolio/static/media/3rdStreetInn.aca63722376dfc38d53c.png",
+    "static/media/noteTaker.png": "/bc-react-portfolio/static/media/noteTaker.6f84a7c114464009d8b5.png",
     "index.html": "/bc-react-portfolio/index.html",
-    "main.a2ee4908.css.map": "/bc-react-portfolio/static/css/main.a2ee4908.css.map",
-    "main.67f2501c.js.map": "/bc-react-portfolio/static/js/main.67f2501c.js.map"
+    "main.e222a4a6.css.map": "/bc-react-portfolio/static/css/main.e222a4a6.css.map",
+    "main.107340ad.js.map": "/bc-react-portfolio/static/js/main.107340ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2ee4908.css",
-    "static/js/main.67f2501c.js"
+    "static/css/main.e222a4a6.css",
+    "static/js/main.107340ad.js"
   ]
 }
