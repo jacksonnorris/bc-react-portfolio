@@ -161,3 +161,8 @@ span>a>svg {
   align-items: center;
   color: white;
 }
+
+.aboutMeImg {
+  max-width: 200px;
+  margin: 20px;
+}
