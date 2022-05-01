@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/bc-react-portfolio/static/css/main.e222a4a6.css",
-    "main.js": "/bc-react-portfolio/static/js/main.107340ad.js",
+    "main.css": "/bc-react-portfolio/static/css/main.57c0e9c9.css",
+    "main.js": "/bc-react-portfolio/static/js/main.a1f1f637.js",
     "static/media/3rdStreetInn.png": "/bc-react-portfolio/static/media/3rdStreetInn.aca63722376dfc38d53c.png",
+    "static/media/housable.png": "/bc-react-portfolio/static/media/housable.27a2fc4f1099e87234b1.png",
+    "static/media/diyProStudios.png": "/bc-react-portfolio/static/media/diyProStudios.ae0d81fae16ebabb80a1.png",
+    "static/media/cryptoViewer.png": "/bc-react-portfolio/static/media/cryptoViewer.9a1199d1de26f1a493ba.png",
+    "static/media/profilePic.png": "/bc-react-portfolio/static/media/profilePic.ac8af780a1de8daf0f16.png",
+    "static/media/Jackson Norris Resume 3-15-22.pdf": "/bc-react-portfolio/static/media/Jackson Norris Resume 3-15-22.c9fa334103c3ba212baa.pdf",
     "static/media/noteTaker.png": "/bc-react-portfolio/static/media/noteTaker.6f84a7c114464009d8b5.png",
+    "static/media/car-quiz.png": "/bc-react-portfolio/static/media/car-quiz.8450d023aad39345af5b.png",
     "index.html": "/bc-react-portfolio/index.html",
-    "main.e222a4a6.css.map": "/bc-react-portfolio/static/css/main.e222a4a6.css.map",
-    "main.107340ad.js.map": "/bc-react-portfolio/static/js/main.107340ad.js.map"
+    "main.57c0e9c9.css.map": "/bc-react-portfolio/static/css/main.57c0e9c9.css.map",
+    "main.a1f1f637.js.map": "/bc-react-portfolio/static/js/main.a1f1f637.js.map"
   },
   "entrypoints": [
-    "static/css/main.e222a4a6.css",
-    "static/js/main.107340ad.js"
+    "static/css/main.57c0e9c9.css",
+    "static/js/main.a1f1f637.js"
   ]
 }
